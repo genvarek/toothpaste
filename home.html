@@ -11,11 +11,12 @@
     <body>
 
         <nav class="navbar">
-            <a class="navbar-brand" href="#"><img src="./icons/eclipse.png" height="100px"/> ROOM.KG</a>
+            <a class="navbar-brand" href="home.html"><img src="./icons/eclipse.png" height="65px" id="logo"/>
+               ROOM.KG</a>
                 <ul class="navbar-nav mr-auto" id="nav-links"></ul>
                     <li class="nav-item"><a href=""><img src="./icons/facebook.svg" height="30px" border="0"/></a></li>
                         <li class="nav-item"><a href=""><img  src="./icons/instagram.svg" height="30px" border="0"/></a></li>
-                        <li class="nav-item"><a href=""><img id="basket" src="./icons/cart.svg" height="30px" border="0"/></a></li>
+                        <li class="nav-item"><a href="cart.html"><img id="basket" src="./icons/cart.svg" height="30px" border="0"/><a href="#" class="badge badge-warning">0</a></a></li>
                         <li class="nav-item"><a id="log-in" href="auth.html">Войти</a></li>
                 </ul>
          </nav>
@@ -95,107 +96,23 @@
         
 
     <div class="container">
-        <div class="row">
-                <h1 class="menu-text" >4 категории наших продуктов: </h1>
-                <div id="demo" class="carousel slide" data-ride="carousel">
-
-                        <!-- Indicators -->
-                        <ul class="carousel-indicators">
-                          <li data-target="#demo" data-slide-to="0" class="active"></li>
-                          <li data-target="#demo" data-slide-to="1"></li>
-                          <li data-target="#demo" data-slide-to="2"></li>
-                        </ul>
-                        
-                        <!-- The slideshow -->
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <a href="https://google.com" >
-                                <img src="icons/smoking.svg" id="smoke" class="overlay" onmouseover="style.background='red'" onmouseout="style.background='url(./backgrounds/back-smoke.jpg)'"
-                                alt="Los Angeles" 
-                                width="500" height="300">
-                            </a> 
-                            
-                            
-
-                            <a href="https://yandex.ru">
-                            <img src="pics/etiquette.png" width="500" height="300">
-                        </a> <br>
-
-                        <a href="https://google.com">
-                            <img src="pics/drawing.png" 
-                            alt="Los Angeles" 
-                            width="500" height="300">
-                        </a>
-
-                        <a href="https://google.com">
-                            <img src="pics/white.png" 
-                            alt="Los Angeles" 
-                            width="500" height="300">
-                        </a> 
-                          </div>
-
-                          <div class="carousel-item">
-                            <a href="https://google.com">
-                                <img src="pics/cool.png" 
-                                alt="Los Angeles" 
-                                width="500" height="300">
-                            </a>
-
-                            <a href="https://yandex.ru">
-                            <img src="pics/etiquette.png" width="500" height="300">
-                        </a> <br>
-
-                        <a href="https://google.com">
-                            <img src="pics/drawing.png" 
-                            alt="Los Angeles" 
-                            width="500" height="300">
-                        </a>
-
-                        <a href="https://google.com">
-                            <img src="pics/white.png" 
-                            alt="Los Angeles" 
-                            width="500" height="300">
-                        </a>>
-                          </div>
-                          <div class="carousel-item">
-                            <a href="https://google.com">
-                                <img src="pics/cool.png" 
-                                alt="Los Angeles" 
-                                width="500" height="300">
-                            </a>
-
-                            <a href="https://yandex.ru">
-                            <img src="pics/etiquette.png" width="500" height="300">
-                        </a> <br>
-
-                        <a href="https://google.com">
-                            <img src="pics/drawing.png" 
-                            alt="Los Angeles" 
-                            width="500" height="300">
-                        </a>
-
-                        <a href="https://google.com">
-                            <img src="pics/white.png" 
-                            alt="Los Angeles" 
-                            width="500" height="300">
-                        </a>>
-                          </div>
-                        </div>
-                        
-                        <!-- Left and right controls -->
-                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                          <span class="carousel-control-prev-icon"></span>
-                        </a>
-                        <a class="carousel-control-next" href="#demo" data-slide="next">
-                          <span class="carousel-control-next-icon"></span>
-                        </a>
-                      </div>
+        <div class="row menu-containter">
+                <h1 class="menu-text" >6 категорий наших продуктов: </h1>
+                <div class="col-md-10">
+                  <div class="d-inline-flex"><button type="button" class="btn">Главный</button></div>
+                  <div class="d-inline-flex"><button type="button" class="btn">Главный</button></div>
+                  <div class="d-inline-flex"><button type="button" class="btn">Главный</button></div>
+                  <div class="d-inline-flex"><button type="button" class="btn">Главный</button></div>
+                  <div class="d-inline-flex"><button type="button" class="btn">Главный</button></div>
+                  <div class="d-inline-flex"><button type="button" class="btn">Главный</button></div>
+                </div>
+               
                       
                     
                       
     
         </div>
-        </div>
+    </div>
         
         
            <!-- Footer -->
@@ -211,18 +128,13 @@
             <!-- Grid column -->
             <div class="col-md-6 mt-md-0 mt-3">
     
-              <!-- Content -->
-              <h5 class="text-uppercase">Footer Content</h5>
-              <p>Here you can use rows and columns here to organize your footer content.</p>
- Credits:  https://www.flaticon.com/authors/smalllikeart
-    
             </div>
             <!-- Grid column -->
     
             <hr class="clearfix w-100 d-md-none pb-3">
     
             <!-- Grid column -->
-              <div class="col-md-3 mb-md-0 mb-3">
+              <div class="col-md-3 mb-md-0 mb-3 ">
     
                 <!-- Links -->
                 <h5 class="text-uppercase">Карта сайта</h5>
@@ -247,14 +159,14 @@
     
 
     <!-- Footer Links -->
-    <div class="container text-center text-md-left">
+    <div class="container text-center text-md-left  footer-dark">
 
       <!-- Footer links -->
       <div class="row text-center text-md-left mt-3 pb-3">
 
         <!-- Grid column -->
         <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h6 class="text-uppercase mb-4 font-weight-bold">Company name</h6>
+          <h6 class="text-uppercase mb-4 font-weight-bold">ROOM.KG</h6>
           <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
             adipisicing elit.</p>
         </div>
@@ -264,19 +176,17 @@
 
         <!-- Grid column -->
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-          <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+          <h6 class="text-uppercase mb-4 font-weight-bold">Продукты:</h6>
           <p>
-            <a href="#!">MDBootstrap</a>
+            <a href="#!">Паста для курильщиков</a>
           </p>
           <p>
-            <a href="#!">MDWordPress</a>
+            <a href="#!">Паста для детей</a>
           </p>
           <p>
-            <a href="#!">BrandFlow</a>
+            <a href="#!">Гипоаллергенная паста</a>
           </p>
-          <p>
-            <a href="#!">Bootstrap Angular</a>
-          </p>
+          
         </div>
         <!-- Grid column -->
 
@@ -317,95 +227,11 @@
         <!-- Grid column -->
 
       </div>
-      <!-- Footer links -->
-
-      <hr>
-
-      <!-- Grid row -->
-      <div class="copyright row d-flex align-items-center">
-
-        <!-- Grid column -->
-        <div class="col-12">
-
-          <!--Copyright-->
-          <p class="text-center text-md-left">© 2018 Copyright:
-            <a href="https://mdbootstrap.com/bootstrap-tutorial/">
-              <strong> MDBootstrap.com</strong>
-            </a>
-          </p>
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-12">
-
-          <!-- Social buttons -->
-          <div class="text-center text-md-right">
-            <ul class="list-unstyled list-inline">
-              <li class="list-inline-item">
-                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                  <i class="fa fa-facebook"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                  <i class="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                  <i class="fa fa-google-plus"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                  <i class="fa fa-linkedin"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-
-        </div>
-        <!-- Grid column -->
-
-      </div>
-      <!-- Grid row -->
-
-    </div>
-    <!-- Footer Links -->
-
+      
   </footer>
   <!-- Footer -->
 
-  <div class="popup-overlay"><!-- //оверлей - отображение формы на затемненном фоне -->
- 
-    <div class="popWindow subscribe_window"><!-- //основное окно формы Подписки -->
-      <p class="subcsribe-text">Subscribe to receive news and information</p>
-      <form class="subscribe-form" autocomplete="off">
-        <div>
-          <input type="text" id="name-subscribe" name="Name" placeholder=" " required>
-          <label for="name-subscribe">Name <span>*</span></label>
-        </div>
-        <div>
-          <input type="email" id="email-subscribe" name="E-mail" placeholder=" " required>
-          <label for="email-subscribe">Email <span>*</span></label>
-        </div>
-        <div class="aligncenter">
-          <button type="submit" class="btn"><i class="fa fa-check" aria-hidden="true"></i> Subscribe</button>
-        </div>
-        <div class="req-fields"><sup>*</sup> required fields</div>
-      </form>
-      <div class="close-btn">&times;</div>
-    </div><!-- /subscribe_window -->
-
-    <div class="popWindow thank_you_window"><!-- //благодарственное окно после успешной отправки формы -->
-      <p class="thank_you_title">Thank you for subscribing!</p>
-      <p class="thank_you_body">We've sent some useful tips to your email. Go ahead and check them now!</p>
-      <div class="close-btn">&times;</div>
-    </div><!-- /thank_you_window -->
-
-  </div><!-- /popup-overlay -->
+  
 
         
         
